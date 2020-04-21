@@ -27,12 +27,12 @@ Prerequisites:
 13) Click **Manage Zones**
 14) Search and click on you **Domain Name**
 15) Scroll down to the **Nameservers** section and click **Change**
-![Original Nameservers](https://github.com/hadriane/cicd_pipeline_java/blob/master/images/CICD_Process.png)
+![Original Nameservers](https://github.com/hadriane/migrating_dns_from_godaddy_to_aws/blob/master/images/original-nameservers.png)
 16) Click **Enter my own nameservers (advanced)**
 17) Twice cliick **Add Nameservers**
 18) Enter the 4 NS records (*without the . at the end of the record*) you got from AWS Route 53
 19) Click **Save**
 20) Wait a minute or two then refresh the page
 21) Scroll down to the **Nameservers** section and you would see the changes has taken effect
-![Changed Nameservers](https://github.com/hadriane/cicd_pipeline_java/blob/master/images/CICD_Process.png)
+![Changed Nameservers](https://github.com/hadriane/migrating_dns_from_godaddy_to_aws/blob/master/images/changed-nameservers.png)
 

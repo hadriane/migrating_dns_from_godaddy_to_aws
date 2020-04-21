@@ -3,7 +3,7 @@
 
 >***Note**: The steps below are performed after you purchased your domain name from GoDaddy
 
-Prerequisites:
+###Prerequisites:
 - Check out the DNS hosting charges for Route53 [here](https://aws.amazon.com/route53/pricing/)
 - Basic pricing is like below:
     1) $0.50 per hosted zone / month for the first 25 hosted zones

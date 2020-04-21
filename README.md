@@ -1,7 +1,7 @@
 # Migrating Your Domain DNS Server From GoDaddy To AWS
 
 
->***Note**: The steps below are performed after you purchased your domain name from GoDaddy
+>***Note**: The steps below are performed after you purchased your domain name from GoDaddy*
 
 ### Prerequisites:
 - Check out the DNS hosting charges for Route53 [here](https://aws.amazon.com/route53/pricing/)

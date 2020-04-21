@@ -4,8 +4,8 @@
 >***Note**: The steps below are performed after you purchased your domain name from GoDaddy
 
 Prerequisites:
-1) Check out the DNS hosting charges for Route53 [here](https://aws.amazon.com/route53/pricing/)
-2) Basic pricing is like below:
+- Check out the DNS hosting charges for Route53 [here](https://aws.amazon.com/route53/pricing/)
+- Basic pricing is like below:
     1) $0.50 per hosted zone / month for the first 25 hosted zones
     2) $0.40 per million queries – first 1 Billion queries / month (for standard queries)
 
@@ -24,6 +24,15 @@ Prerequisites:
 10) Click the **drop-down** arrow nect to your account name
 11) Click **manage domains**
 12) Click on the **DNS drop-down** at the top
-13) Click **manage zones**
+13) Click **Manage Zones**
 14) Search and click on you **Domain Name**
-15) 
+15) Scroll down to the **Nameservers** section and click **Change**
+![Original Nameservers](https://github.com/hadriane/cicd_pipeline_java/blob/master/images/CICD_Process.png)
+16) Click **Enter my own nameservers (advanced)**
+17) Twice cliick **Add Nameservers**
+18) Enter the 4 NS records (*without the . at the end of the record*) you got from AWS Route 53
+19) Click **Save**
+20) Wait a minute or two then refresh the page
+21) Scroll down to the **Nameservers** section and you would see the changes has taken effect
+![Changed Nameservers](https://github.com/hadriane/cicd_pipeline_java/blob/master/images/CICD_Process.png)
+
